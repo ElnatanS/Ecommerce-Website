@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600&family=Kumbh+Sans:wght@400;700&family=Manrope:wght@500;600;700;800&family=Overpass:wght@300;400;700&family=Roboto+Mono:ital,wght@0,400;0,500;0,700;1,300;1,400&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Kumbh Sans', sans-serif;
+  scroll-behaviour: smooth;
+}
+
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2.5rem 5rem;
+}
+
+.logo-menu{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navlist{
+  margin-left: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navlist li{
+  list-style: none;
+  margin-left: 1.25rem;
+  opacity: .5;
+  cursor: pointer;
+  transition: all .3s ease-in .3s;
+}
+
+.navlist li:hover{
+  border-bottom: 1px solid hsl(26, 100%, 55%);
+}
+
+.cart-pic{
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+}
+
+.cart{
+  margin-right: 3.5rem;
+  cursor: pointer;
+}
+
+.img-avatar{
+  width: 3rem;
+}
+
+.line-bottom{
+  border: .1px solid #000;
+  opacity: .1;
+  margin: 0rem 5rem;
+}
+
+.sidepicture{
+  display: flex;
+  flex-direction: column;
+  margin: 5rem 7.5rem;
+  width: 30rem;
+}
+
+.lg-thumbnail{
+  width: 30rem;
+  border-radius: 20px;
+}
+
+.thumbnail{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.sm-thumbnail{
+  border-radius: 15px;
+  width: 6rem;
+/*   margin-right: 1.5rem; */
+  cursor: pointer;
+  transition: all .2s ease-in .1s;
+}
+
+.sm-thumbnail:hover{
+  border: 2px solid hsl(26, 100%, 55%);
+}
+
+.app-flex{
+  display: flex;
+
+}
